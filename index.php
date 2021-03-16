@@ -8,47 +8,48 @@
     <title>Trainyathri</title>
 </head>
 <nav class="navbar navbar-expand-lg navbar-light" style="background: #6798e2;" > 
-        <div class="container-fluid">
+    <div class="container-fluid">
         <img src="https://images.railyatri.in/ry-logo.png" height="25" alt="" >
-      <a class="navbar-brand" href="index.html" style="font-size:larger; font-family:sans-serif;">  Home</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-     <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+  <a class="navbar-brand" href="index.php" style="font-size:larger; font-family:sans-serif;">Home</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+ <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="aboutus.php" style="font-size:larger; font-family:sans-serif;">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="font-size:larger; font-family:sans-serif;"></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="contact.php" style="font-size:larger; font-family:sans-serif;">Contact</a>
+      </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="offers.php" style="font-size:larger; font-family:sans-serif;">Offers</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="Traintickets.php" style="font-size:larger; font-family:sans-serif;">Train Search</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="https://www.railyatri.in/train-ticket?utm_source=train_ticket_search_dweb_header_ttb" style="font-size:larger; font-family:sans-serif;">Traintickets</a>
+      </li>
+    </ul>
+    <form class="d-flex">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="aboutus.html" style="font-size:larger; font-family:sans-serif;">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="font-size:larger; font-family:sans-serif;"></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="contact.html" style="font-size:larger; font-family:sans-serif;">Contact</a>
-          </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="offers.html" style="font-size:larger; font-family:sans-serif;">Offers</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Traintickets.html" style="font-size:larger; font-family:sans-serif;">Train Search</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="https://www.railyatri.in/train-ticket?utm_source=train_ticket_search_dweb_header_ttb" style="font-size:larger; font-family:sans-serif;">Traintickets</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link active" style="font-size:larger; font-family:sans-serif;" href="signup.php">SIGN UP</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" style="font-size:larger; font-family:sans-serif;" href="signin.php">SIGN IN</a>
+            </li>
         </ul>
-        <form class="d-flex">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" style="font-size:larger; font-family:sans-serif;" href="signup.html">SIGN UP</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" style="font-size:larger; font-family:sans-serif;" href="signin.html">SIGN IN</a>
-                </li>
-            </ul>
-        </form>
-      </div>
-    </div>
-  </nav>
+    </form>
+  </div>
+</div>
+</nav>
    <marquee style="font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(8, 8, 8) ;" >Simplifying Train Travels
     With over 23.9 million passengers traveling and commuting daily by train, RailYatri aims to serve its passengers with inclusive and comprehensive information that helps those making informed decisions, thus simplifying their train travels <br></marquee>
 <body>
